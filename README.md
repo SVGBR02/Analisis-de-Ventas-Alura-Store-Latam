@@ -1,32 +1,70 @@
-# 📊 Análisis de Ventas – Alura Store Latam
+# 📊 Alura Store Latam – Análisis Exploratorio de Ventas
 
 ## Descripción del proyecto
 
-Este proyecto tiene como objetivo realizar un **análisis exploratorio de datos de ventas** para la cadena **Alura Store Latam**, utilizando información histórica de varias tiendas de la región.
+Este proyecto tiene como objetivo realizar un **análisis exploratorio de datos de ventas** para la cadena **Alura Store Latam**, con el objetivo de **apoyar la toma de decisiones comerciales**.
 
-El análisis busca apoyar la **toma de decisiones comerciales**, identificando patrones de facturación, comportamiento de ventas por categoría, calificaciones de clientes y costos asociados a envíos. El enfoque es práctico y orientado al negocio, alineado con la formación de un **ingeniero industrial en proceso de especialización en Data Analysis**.
+A partir de datos históricos de varias tiendas, se procede a hacer los siguientes analisis:
 
-## Contenido del notebook
+- Analisis de facturación
+- Ventas por categoria
+- Califiación promedio de la tienda
+- Productos mas y menos vendidos
+- Envio promedio por tienda
 
-El notebook está estructurado en etapas claras que permiten comprender el flujo del análisis:
+El enfoque es práctico, orientado al negocio y alineado con la **especialización en Data Analysis**.
 
-1. **Importación de datos**  
-   Carga de los archivos de ventas correspondientes a cada tienda.
+## Estructura del proyecto 
 
-2. **Análisis de facturación**  
-   Cálculo del ingreso total por tienda para comparar su desempeño económico.
+La organización del proyecto es la siguiente:
 
-3. **Ventas por categoría**  
-   Evaluación de la cantidad de productos vendidos por categoría, identificando las más relevantes en cada tienda.
+```
 
-4. **Calificación promedio de las tiendas**  
-   Análisis de la satisfacción del cliente a partir de las calificaciones otorgadas.
+Analisis-de-Ventas-Alura-Store-Latam/
+│
+├── AluraStoreLatam SVGBR02.ipynb # Notebook principal con el análisis completo
+└── README.md # Documentación del proyecto
 
-5. **Costo de envío**  
-   Estudio de los costos de envío promedio y su impacto potencial en la rentabilidad.
+```
 
-6. **Comparación general**  
-   Consolidación de resultados para facilitar la comparación entre tiendas.
+Todo el proceso de análisis, visualización e interpretación de resultados se encuentra documentado dentro del notebook.
+
+## 📊 Análisis, gráficos e insights obtenidos
+
+El notebook desarrolla las siguientes etapas principales:
+
+### 🔹 Análisis de facturación por tienda
+- Se calcula la facturación total de cada tienda.
+- Permite comparar el desempeño económico entre ellas.
+
+📈 **Ejemplo de gráfico:**  
+Gráfico de barras comparando la facturación total por tienda.
+
+**Insight:**  
+Se identifican tiendas con mayor aporte a los ingresos totales del negocio.
+
+### 🔹 Ventas por categoría de producto
+- Se analiza la cantidad de productos vendidos por categoría.
+- Se detectan las categorías más relevantes.
+
+📊 **Ejemplo de gráfico:**  
+Gráfico de barras mostrando las ventas por categoría.
+
+**Insight:**  
+Algunas categorías concentran la mayor parte de las ventas, lo que puede orientar decisiones de inventario y marketing.
+
+### 🔹 Calificación promedio de clientes
+- Se calcula la calificación promedio por tienda.
+- Se evalúa la satisfacción del cliente.
+
+⭐ **Insight:**  
+Existen diferencias en la experiencia del cliente entre tiendas.
+
+### 🔹 Costos de envío
+- Se analiza el costo de envío promedio por tienda.
+
+📉 **Insight:**  
+Tiendas con costos de envío más altos pueden requerir optimización logística.
 
 ## Cómo ejecutar el proyecto
 
@@ -36,19 +74,6 @@ El notebook está estructurado en etapas claras que permiten comprender el flujo
    pip install pandas matplotlib
 4. Abrir el archivo .ipynb en tu servicio de Jupyter Notebook de confianza.
 5. Ejecutar las celdas de manera secuencial para reproducir el análisis.
-
-## Resultados esperados
-
-Al finalizar la ejecución del notebook, se obtienen:
-
-* Comparaciones claras de facturación entre tiendas.
-* Identificación de las categorías más vendidas.
-* Indicadores de satisfacción del cliente por tienda.
-* Información útil sobre costos de envío promedio.
-* Insights generales que pueden apoyar decisiones estratégicas como:
-* Enfoque en categorías clave.
-* Optimización de costos.
-* Evaluación del desempeño comercial por tienda.
 
 ## Observaciones finales
 
