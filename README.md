@@ -33,7 +33,25 @@ El notebook está estructurado en etapas claras que permiten comprender el flujo
 1. Clonar o descargar este repositorio.
 2. Abrir una terminal en la carpeta del proyecto.
 3. Instalar las dependencias necesarias (si no están disponibles):
-
-   ```bash
    pip install pandas matplotlib
+4. Abrir el archivo .ipynb en tu servicio de Jupyter Notebook de confianza.
+5. Ejecutar las celdas de manera secuencial para reproducir el análisis.
+
+## Resultados esperados
+
+Al finalizar la ejecución del notebook, se obtienen:
+
+* Comparaciones claras de facturación entre tiendas.
+* Identificación de las categorías más vendidas.
+* Indicadores de satisfacción del cliente por tienda.
+* Información útil sobre costos de envío promedio.
+* Insights generales que pueden apoyar decisiones estratégicas como:
+* Enfoque en categorías clave.
+* Optimización de costos.
+* Evaluación del desempeño comercial por tienda.
+
+## Observaciones finales
+
+* El análisis se basa en datos históricos y no considera factores externos como estacionalidad, inflación o campañas de marketing.
+* Los resultados son descriptivos y no incluyen modelos predictivos.
 
